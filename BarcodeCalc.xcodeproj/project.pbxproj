@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD73182526242C0000B50609 /* BucketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD73182426242C0000B50609 /* BucketTableViewCell.swift */; };
 		BDBE203826234D57002E80D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE203726234D57002E80D3 /* AppDelegate.swift */; };
 		BDBE203A26234D57002E80D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE203926234D57002E80D3 /* SceneDelegate.swift */; };
 		BDBE203C26234D57002E80D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE203B26234D57002E80D3 /* ViewController.swift */; };
@@ -14,9 +15,20 @@
 		BDBE204226234D57002E80D3 /* BarcodeCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBE204026234D57002E80D3 /* BarcodeCalc.xcdatamodeld */; };
 		BDBE204426234D58002E80D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE204326234D58002E80D3 /* Assets.xcassets */; };
 		BDBE204726234D58002E80D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBE204526234D58002E80D3 /* LaunchScreen.storyboard */; };
+		BDBE205426235346002E80D3 /* TableViewData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBE205326235346002E80D3 /* TableViewData.storyboard */; };
+		BDBE205726235383002E80D3 /* TableViewDataControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE205626235383002E80D3 /* TableViewDataControllerViewController.swift */; };
+		BDBE205A26235636002E80D3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE205926235636002E80D3 /* Product.swift */; };
+		BDBE206126235DE6002E80D3 /* ProductItems+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE205F26235DE6002E80D3 /* ProductItems+CoreDataClass.swift */; };
+		BDBE206226235DE6002E80D3 /* ProductItems+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE206026235DE6002E80D3 /* ProductItems+CoreDataProperties.swift */; };
+		BDBE2068262370EB002E80D3 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE2067262370EB002E80D3 /* ProductTableViewCell.swift */; };
+		BDBE206B2623DEFC002E80D3 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE206A2623DEFC002E80D3 /* cardView.swift */; };
+		BDBE206E2623E812002E80D3 /* bucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE206D2623E812002E80D3 /* bucket.swift */; };
+		BDBE207526240E2B002E80D3 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE207426240E2B002E80D3 /* CheckoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2826A88201BE56C1CFC28268 /* Pods-BarcodeCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeCalc.debug.xcconfig"; path = "Target Support Files/Pods-BarcodeCalc/Pods-BarcodeCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		BD73182426242C0000B50609 /* BucketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketTableViewCell.swift; sourceTree = "<group>"; };
 		BDBE203426234D57002E80D3 /* BarcodeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBE203726234D57002E80D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBE203926234D57002E80D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,17 @@
 		BDBE204326234D58002E80D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBE204626234D58002E80D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBE204826234D58002E80D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBE205326235346002E80D3 /* TableViewData.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewData.storyboard; sourceTree = "<group>"; };
+		BDBE205626235383002E80D3 /* TableViewDataControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataControllerViewController.swift; sourceTree = "<group>"; };
+		BDBE205926235636002E80D3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BDBE205F26235DE6002E80D3 /* ProductItems+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductItems+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BDBE206026235DE6002E80D3 /* ProductItems+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductItems+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BDBE2067262370EB002E80D3 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		BDBE206A2623DEFC002E80D3 /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+		BDBE206D2623E812002E80D3 /* bucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucket.swift; sourceTree = "<group>"; };
+		BDBE207426240E2B002E80D3 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		F3F1E29D474958828B661208 /* Pods-BarcodeCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeCalc.release.xcconfig"; path = "Target Support Files/Pods-BarcodeCalc/Pods-BarcodeCalc.release.xcconfig"; sourceTree = "<group>"; };
+		F73B49B54EBB353288C84C75 /* Pods_BarcodeCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarcodeCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +62,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EBD781883CC07A0098414F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2826A88201BE56C1CFC28268 /* Pods-BarcodeCalc.debug.xcconfig */,
+				F3F1E29D474958828B661208 /* Pods-BarcodeCalc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BDBE202B26234D57002E80D3 = {
 			isa = PBXGroup;
 			children = (
 				BDBE203626234D57002E80D3 /* BarcodeCalc */,
 				BDBE203526234D57002E80D3 /* Products */,
+				4EBD781883CC07A0098414F5 /* Pods */,
+				D7BC0B33D24BF891D6E285F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +92,66 @@
 		BDBE203626234D57002E80D3 /* BarcodeCalc */ = {
 			isa = PBXGroup;
 			children = (
+				BDBE206426235DF0002E80D3 /* ProductItems */,
+				BDBE205126234DD4002E80D3 /* Models */,
+				BDBE205026234DCA002E80D3 /* Controllers */,
+				BDBE204F26234DBA002E80D3 /* Views */,
 				BDBE203726234D57002E80D3 /* AppDelegate.swift */,
 				BDBE203926234D57002E80D3 /* SceneDelegate.swift */,
-				BDBE203B26234D57002E80D3 /* ViewController.swift */,
-				BDBE203D26234D57002E80D3 /* Main.storyboard */,
 				BDBE204326234D58002E80D3 /* Assets.xcassets */,
 				BDBE204526234D58002E80D3 /* LaunchScreen.storyboard */,
 				BDBE204826234D58002E80D3 /* Info.plist */,
 				BDBE204026234D57002E80D3 /* BarcodeCalc.xcdatamodeld */,
 			);
 			path = BarcodeCalc;
+			sourceTree = "<group>";
+		};
+		BDBE204F26234DBA002E80D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE203D26234D57002E80D3 /* Main.storyboard */,
+				BDBE205326235346002E80D3 /* TableViewData.storyboard */,
+				BDBE2067262370EB002E80D3 /* ProductTableViewCell.swift */,
+				BD73182426242C0000B50609 /* BucketTableViewCell.swift */,
+				BDBE206A2623DEFC002E80D3 /* cardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDBE205026234DCA002E80D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE203B26234D57002E80D3 /* ViewController.swift */,
+				BDBE205626235383002E80D3 /* TableViewDataControllerViewController.swift */,
+				BDBE207426240E2B002E80D3 /* CheckoutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BDBE205126234DD4002E80D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE205926235636002E80D3 /* Product.swift */,
+				BDBE206D2623E812002E80D3 /* bucket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDBE206426235DF0002E80D3 /* ProductItems */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE205F26235DE6002E80D3 /* ProductItems+CoreDataClass.swift */,
+				BDBE206026235DE6002E80D3 /* ProductItems+CoreDataProperties.swift */,
+			);
+			path = ProductItems;
+			sourceTree = "<group>";
+		};
+		D7BC0B33D24BF891D6E285F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73B49B54EBB353288C84C75 /* Pods_BarcodeCalc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBE204B26234D58002E80D3 /* Build configuration list for PBXNativeTarget "BarcodeCalc" */;
 			buildPhases = (
+				A5E54A18C429A956E7543399 /* [CP] Check Pods Manifest.lock */,
 				BDBE203026234D57002E80D3 /* Sources */,
 				BDBE203126234D57002E80D3 /* Frameworks */,
 				BDBE203226234D57002E80D3 /* Resources */,
@@ -127,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBE205426235346002E80D3 /* TableViewData.storyboard in Resources */,
 				BDBE204726234D58002E80D3 /* LaunchScreen.storyboard in Resources */,
 				BDBE204426234D58002E80D3 /* Assets.xcassets in Resources */,
 				BDBE203F26234D57002E80D3 /* Main.storyboard in Resources */,
@@ -135,15 +221,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5E54A18C429A956E7543399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarcodeCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDBE203026234D57002E80D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BDBE203C26234D57002E80D3 /* ViewController.swift in Sources */,
+				BDBE206E2623E812002E80D3 /* bucket.swift in Sources */,
+				BDBE206226235DE6002E80D3 /* ProductItems+CoreDataProperties.swift in Sources */,
+				BDBE2068262370EB002E80D3 /* ProductTableViewCell.swift in Sources */,
+				BDBE207526240E2B002E80D3 /* CheckoutViewController.swift in Sources */,
 				BDBE203826234D57002E80D3 /* AppDelegate.swift in Sources */,
+				BDBE206B2623DEFC002E80D3 /* cardView.swift in Sources */,
+				BDBE205726235383002E80D3 /* TableViewDataControllerViewController.swift in Sources */,
+				BD73182526242C0000B50609 /* BucketTableViewCell.swift in Sources */,
 				BDBE203A26234D57002E80D3 /* SceneDelegate.swift in Sources */,
+				BDBE206126235DE6002E80D3 /* ProductItems+CoreDataClass.swift in Sources */,
 				BDBE204226234D57002E80D3 /* BarcodeCalc.xcdatamodeld in Sources */,
+				BDBE205A26235636002E80D3 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +407,7 @@
 		};
 		BDBE204C26234D58002E80D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2826A88201BE56C1CFC28268 /* Pods-BarcodeCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +427,7 @@
 		};
 		BDBE204D26234D58002E80D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F1E29D474958828B661208 /* Pods-BarcodeCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
